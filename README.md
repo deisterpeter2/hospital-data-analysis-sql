@@ -105,7 +105,7 @@ This project demonstrates how SQL can answer important operational questions, in
 - For each doctor, how many distinct patients did they treat?
 - For each department, what were the average satisfaction score and average wait times?
 - Which doctors have the highest average satisfaction score (minimum 100 visits)?
-- Rank departments based on their total revenue within each department category.
+- How do departments rank based on their total revenue within each department category?
 
 ---
 
