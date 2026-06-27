@@ -101,11 +101,11 @@ Use SQL features commonly expected in entry-level data analyst positions.
 
 This project demonstrates how SQL can answer important operational questions, including:
 
-- Which departments treated the highest number of patients?
-- What was the average patient length of stay by department?
-- Which physicians handled the highest patient volume?
-- What were the monthly admission trends?
-- Which departments generated the highest revenue?
+- What was the total revenue and number of visits for each department?
+- For each doctor, how many distinct patients did they treat?
+- For each department, what were the average satisfaction score and average wait times?
+- Which doctors have the highest average satisfaction score (minimum 100 visits)?
+- Rank departments based on their total revenue within each department category.
 
 ---
 
@@ -141,7 +141,11 @@ hospital-data-analysis-sql/
 │
 └── images/
     ├── Hospital_Data_ERD.png
-    ├── sample-query-results.png
+    ├── Revenue_rank_by_dept.jpg
+    ├── Dr_highest_satisfaction_score.jpg
+    ├── Satisfaction_score_by_dept.jpg
+    ├── Patient_volume_per_dr.jpg
+    ├── Revenue_visits_per_dept.jpg
 ```
 
 ---
